@@ -46,6 +46,9 @@ const Navbar = ({ mode, fn }) => {
             <li className="nav-item">
               <Link className="nav-link" to="/about">About </Link>
             </li>
+            <li>
+              V 0.0.1
+            </li>
             <li className="nav-item">
               <button
                 type="button"
