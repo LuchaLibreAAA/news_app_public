@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import Newsitems from './newsitems';
 // custom key
-const apikey = '1d22514f296c9930fccac4e4babb6b03';
-
+//const apikey = '1d22514f296c9930fccac4e4babb6b03';
+let allkeys = JSON.parse(process.env.REACT_APP_ALLKEYS || '[]')
+const apikey=allkeys[allkeys.length-1]
 const CustomPage = ({ mode }) => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get('q') || '';
@@ -181,7 +182,7 @@ const CustomPage = ({ mode }) => {
       setError(null);
                  document.title=`News App-${query}`;
       try {
-        const url = `https://gnews.io/api/v4/search?q=${encodeURIComponent(query)}&lang=en&max=12&apikey=${apikey}`;
+        const url = `/.netlify/functions/news?q=${encodeURIComponent(query)}&lang=en&max=12&apikey=${apikey}`;
         const response = await fetch(url);
         const data = await response.json();
 
