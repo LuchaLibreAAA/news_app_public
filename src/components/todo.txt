@@ -1,0 +1,5 @@
+#ADD an error message in case the fallback data is being displayed
+# Add feature to use multiple apikeys
+# Beautify the shit and optimize for mobile
+#add infinite scroll
+# add a feature to identify news by publisher
