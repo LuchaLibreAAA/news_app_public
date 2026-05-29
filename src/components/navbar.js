@@ -17,7 +17,7 @@ const Navbar = ({ mode, fn }) => {
 
   return (
     <>
-    <nav id="navbar"className={`navbar fixed-top navbar-expand-xxl ${mode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'}`}>
+    <nav id="navbar" className={`navbar fixed-top navbar-expand-xxl ${mode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'}`}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">🗞️News App</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

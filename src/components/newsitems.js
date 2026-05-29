@@ -25,7 +25,7 @@ export default class Newsitems extends Component {
   <img src={imgurl} height="200px" width="400px" className="card-img-top" alt="Couldn't load "/>
   
   <div className="card-body">
-    <p class="fw-light">{time}</p>
+    <p className="fw-light">{time}</p>
     <h5 className="card-title">{caption}</h5>
     <p className="card-text">{description}</p>
     <a href={url} target="_blank"  rel="noreferrer" className="btn btn-primary">Read Full Article</a>

@@ -201,7 +201,7 @@ constructor(props){
     try{
 let apikey = allkeys[this.props.keyindex]
              this.props.prfn(30);  
-   let newurl = `https://gnews.io/api/v4/search?q=${this.props.category}&lang=en&max=10&apikey=` + apikey;
+   let newurl = `/.netlify/functions/news?q=${this.props.category}&lang=en&max=10&apikey=${apikey}`;
    //let customurl=`https://gnews.io/api/v4/top-headlines?category=${this.props.category}&apikey=${apikey}`
    //t.log(newurl)
    let response=await fetch(newurl)  
@@ -211,7 +211,7 @@ let apikey = allkeys[this.props.keyindex]
   throw new Error('Data corrupted')
 }
 this.props.prfn(90); 
-    console.log(data)
+    //console.log(data)
     articles=data.articles
    // console.log("articles")
   this.setState({ articles: data.articles, loading: false });
@@ -230,7 +230,7 @@ this.props.prfn(100);
     try {
       const apikey = allkeys[this.props.keyindex];
          this.props.prfn(60); 
-      const newurl = `https://gnews.io/api/v4/search?q=${this.props.category}&lang=en&max=10&apikey=${apikey}`;
+      const newurl = `/.netlify/functions/news?q=${this.props.category}&lang=en&max=10&apikey=${apikey}`;
       const response = await fetch(newurl);
       const data = await response.json();
 this.props.prfn(90); 

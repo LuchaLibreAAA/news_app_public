@@ -24,7 +24,7 @@ function Aboutpage({ mode }) {
         </p>
         <hr style={{ borderColor: muted, opacity: 0.3, margin: '30px 0' }} />
         <small style={{ color: muted }}>Stack: React · Bootstrap · GNews API</small>
-       <br/> <br/><a target="_blank" rel="noreferrer" href='https://github.com/LuchaLibreAAA' type="button" class="btn btn-secondary">My Github</a> ㅤ <a target="_blank" rel="noreferrer" href='https://github.com/LuchaLibreAAA' type="button" class="btn btn-secondary">Repo of this project</a>
+       <br/> <br/><a target="_blank" rel="noreferrer" href='https://github.com/LuchaLibreAAA' type="button" class="btn btn-secondary">My Github</a> ㅤ <a target="_blank" rel="noreferrer" href='https://github.com/LuchaLibreAAA/news_app_public' type="button" class="btn btn-secondary">Repo of this project</a>
       </div>
     </div>
   );
