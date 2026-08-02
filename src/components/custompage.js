@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import Newsitems from './newsitems';
 // custom key
-//const apikey = '1d22514f296c9930fccac4e4babb6b03';
 let allkeys = JSON.parse(process.env.REACT_APP_ALLKEYS || '[]')
 const apikey=allkeys[allkeys.length-1]
 const CustomPage = ({ mode }) => {
