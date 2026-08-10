@@ -14,7 +14,7 @@ import LoadingBar from 'react-top-loading-bar';
 
 
 function App() {
-  let [darkmode,setDarkMode]=useState(true)
+  let [darkmode,setDarkMode]=useState(false)
   //default color
          document.body.style.backgroundColor ='rgb(0, 82, 170)';
 
