@@ -10,9 +10,9 @@ This is made as a learning project and I am not liable for any misinformation sp
 ## Features
  
 - **Category browsing** — headlines across Sports, Business, Technology and Politics . 
-- **Search** — query-based article search 
-- **Live data** — content pulled directly from the GNews API on each request
-- **Responsive layout** — built with Bootstrap for cross-device compatibility
+- **Search** — query-based article search .
+- **Live data** — content pulled directly from the GNews API on each request.
+- **Responsive layout** — built with Bootstrap for cross-device compatibility.
 
   ---
  
