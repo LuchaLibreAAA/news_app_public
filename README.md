@@ -25,4 +25,4 @@ This is made as a learning project and I am not liable for any misinformation sp
  ---
 ## Disclaimer
  
-This project is purely for learning purposes. Article content is sourced directly from third-party publishers via the GNews API For concerns about the accuracy or content of any article, please contact the original publisher. The maintainer of this repository bears no responsibility for the accuracy of news displayed
+This project is purely for learning purposes. Article content is sourced directly from third-party publishers via the GNews API. For concerns about the accuracy or content of any article, please contact the original publisher. The maintainer of this repository bears no responsibility for the accuracy of news displayed
