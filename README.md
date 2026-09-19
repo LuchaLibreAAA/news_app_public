@@ -18,10 +18,10 @@ This is made as a learning project and I am not liable for any misinformation sp
  
 ## Tech Stack
  
-- **React.js** — UI and component logic
-- **Bootstrap** — styling and layout
-- **GNews API** — news data source
-- **Netlify** — deployment
+- **React.js** —- UI and component logic
+- **Bootstrap** —- styling and layout
+- **GNews API** —- news data source
+- **Netlify** —- deployment
  ---
 ## Disclaimer
  
